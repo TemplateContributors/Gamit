@@ -8,6 +8,7 @@ $(document).ready(function(){
     let disappear =  $('#disappear');
     let upCross =  $('#upCross');
     let downCross =  $('#downCross');
+    let Hamburger = $('#Hamburger');
 
     // هاور دایره لایو
     lives.hover(function(){
@@ -37,5 +38,6 @@ $(document).ready(function(){
         disappear.toggleClass('shift-left shift-rigth');
         upCross.toggleClass('top-[0.5rem] top-0 right-[0.3rem] rotate-45');
         downCross.toggleClass('top-5 top-[0.62rem] rotate-[135deg]');
+        Hamburger.toggleClass('hidden flex fade-in');
     });
 });
