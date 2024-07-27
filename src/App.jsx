@@ -47,10 +47,14 @@ function App() {
               </div>
               <div class="w-screen h-[45.6rem] flex flex-col items-center">
                 <div class="w-screen h-96 flex justify-center mt-20">
-                  <svg class="fill-gray-300 ml-2 mt-48 h-6 hover:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM241 377c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l87-87-87-87c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L345 239c9.4 9.4 9.4 24.6 0 33.9L241 377z"/></svg>
+                  <svg class="fill-gray-300 ml-2 mt-48 h-6 hover:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM241 377c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l87-87-87-87c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L345 239c9.4 9.4 9.4 24.6 0 33.9L241 377z"/>
+                  </svg>
                   <div class="w-1/4 h-96 bg-slate-300"></div>
                   <div class="w-1/4 h-96 bg-slate-500"></div>
-                  <svg class="fill-gray-300 mr-2 mt-48 h-6 hover:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 256A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM271 135c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-87 87 87 87c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L167 273c-9.4-9.4-9.4-24.6 0-33.9L271 135z"/></svg>
+                  <svg class="fill-gray-300 mr-2 mt-48 h-6 hover:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M512 256A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM271 135c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-87 87 87 87c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L167 273c-9.4-9.4-9.4-24.6 0-33.9L271 135z"/>
+                  </svg>
                 </div>
                 <div class="mt-10 flex">
                   <div class="mx-2 w-2 h-2 bg-white rounded-full"></div>
@@ -60,6 +64,29 @@ function App() {
               </div>
           </nav>
         </section>
+        <div class="flex w-screen justify-center text-white">
+          <div className="mt-[-7rem] mx-6 w-80 h-64 bg-[#FF7144] rounded-[1.5rem] flex flex-col items-center">
+            <p class="text-2xl mt-4 font-extrabold">ریمیت چیه؟</p>
+            <p class="mt-4 mx-4 text-sm">اولین و قدیمی‌ترین سرویس ایرانی جهت دریافت حمایت مالی با ویژگی‌های مختلف مخصوص استریمر ها که امکان نمایش حمایت‌های دریافت شده به شکل‌های گوناگون بر روی استریم را فراهم می‌کند.</p>
+            <div class="w-72">
+              <button class="bg-purple-800 rounded-full px-4 py-2 mt-10 mr-36 shadow-2xl shadow-purple-800 hover:shadow-none transition-all duration-200">اطلاعات بیشتــر</button>
+            </div>
+          </div>
+          <div className="mt-[-7rem] mx-6 w-80 h-64 bg-[#FF7144] rounded-[1.5rem] flex flex-col items-center">
+          <p class="text-2xl mt-4 font-extrabold">استریم و استریمر چیه؟</p>
+            <p class="mt-4 mx-4 text-sm">استریم یا لایو استریم، به فعالیتی گفته می‌شود که طی آن، استریمر به صورت زنده، محتوای تولیدی خود را برای مخاطبان به اشتراک می‌گذارد.</p>
+            <div class="w-72">
+              <button class="bg-purple-800 rounded-full px-4 py-2 mt-[3.8rem] mr-36 shadow-2xl shadow-purple-800 hover:shadow-none transition-all duration-200">اطلاعات بیشتــر</button>
+            </div>
+          </div>
+          <div className="mt-[-7rem] mx-6 w-80 h-64 bg-[#FF7144] rounded-[1.5rem] flex flex-col items-center">
+          <p class="text-2xl mt-4 font-extrabold ">حمایت مالی چیه؟</p>
+            <p class="mt-4 mx-4 text-sm">فرهنگی که در قبال محتوای رایگان یک استریمر، از آن سپاس‌گذاری می‌کند. مخاطبان استریم می‌توانند در صورت تمایل، با پرداخت هر مبلغ دلخواه، از استریمر محبوب خودشان حمایت کنند.</p>
+            <div class="w-72">
+              <button class="bg-purple-800 rounded-full px-4 py-2 mt-10 mr-36 shadow-2xl shadow-purple-800 hover:shadow-none transition-all duration-200">اطلاعات بیشتــر</button>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   )
