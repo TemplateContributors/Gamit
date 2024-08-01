@@ -1,3 +1,10 @@
-##پروژه مبلمان
+# پروژه فارسی و بومی سازی سایت مبلمان
 
-یک پروژه در جهت فارسی سازی دمو سایت https://untree.co/demos/furni/
+
+- [x] فارسی و بومی سازی قالب سایت مبلمان از  [untree.co/demos/furni](https://untree.co/demos/furni/)
+
+<br>
+
+- [x] Localization and Translation of Furni Furniture Store Template from [untree.co/demos/furni](https://untree.co/demos/furni/)
+
+<br>
