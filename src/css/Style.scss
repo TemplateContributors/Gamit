@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Vazirmatn";
+    src:
+    local("Vazirmatn"),
+    url("/src/assets/font/Vazirmatn-Light.woff2") , format("woff2");
+    font-weight: Light;
+}
+
+body {
+    font-family: 'Vazirmatn';
+}
+
+.bg-active{
+    background-color: white !important;
+}
+.active{
+    color: white !important;
+}
+.bg-radial{
+    background: radial-gradient( rgb(247, 112, 59) , rgb(206, 86, 39));
+    box-shadow: 0px 5px 10px 0px rgba(216, 92, 43 , 0.5);
+}
+.bg-radial:hover {
+    background: radial-gradient( rgb(247, 125, 77) , rgb(230, 101, 50));
+}
+/* styles.css */
+.shift-left{
+    border-color: transparent;
+    transform: translateX(-4rem);
+    transition: transform 0.3s ease,border-color 0.3s ease;
+}
+.shift-rigth{
+    border-color: white;
+    transform: translateX(0);
+    transition: transform 0.3s ease,border-color 0.3s ease;
+}
+
+.fade-in {
+    animation: fadeIn 1s forwards;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
