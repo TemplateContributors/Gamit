@@ -8,6 +8,8 @@
 - [x] استفاده از [FontAwesome](https://FontAwesome.com) برای برخی از آیکون‌ها
 - [x] استفاده از [TailwindUI](https://TailwindUI.com) برای قسمت بلاگ
 - [x] استفاده از [jQuery](https://jQuery.com) برای منو همبرگری
+- [x] استفاده فونت [vazirmatn](https://rastikerdar.github.io/vazirmatn/fa) 
+
 <br>
 <br>
 
@@ -20,3 +22,4 @@ In this project, I intend to translate and localize various sections of the [Fur
 - [x] Using [FontAwesome](https://FontAwesome.com)
 - [x] Using [TailwindUI](https://TailwindUI.com) for the blog section
 - [x] Using [jQuery](https://jQuery.com) for the hamburger menu
+- [x] Use the [vazirmatn](https://rastikerdar.github.io/vazirmatn/fa)  font
